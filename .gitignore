@@ -1,0 +1,16 @@
+# Ignore raw and processed data
+data/raw/*.csv
+data/processed/*.csv
+
+# Ignore models
+models/*.pkl
+
+# Ignore DVC metadata
+.dvc/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
